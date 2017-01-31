@@ -26,5 +26,41 @@
         <item name="colorControlActivated">@color/colorWhite</item>
     </style>
 
+    <style name="CustomAppCompatFullscreen" parent="@style/Theme.AppCompat.Light">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="FacebookLoginButton">FbLoginButtonStyle>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:layout_marginStart">@dimen/fb_login_btn_margin_start</item>
+        <item name="android:layout_marginEnd">@dimen/fb_login_btn_margin_start</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+
+    <style name="GoogleLoginButton">FbLoginButtonStyle>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:layout_marginStart">@dimen/gl_login_btn_margin_start</item>
+        <item name="android:layout_marginEnd">@dimen/gl_login_btn_margin_start</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="MyCheckBoxTheme" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/colorBlackDimText</item>
+        <item name="colorControlActivated">@color/greenStatus</item>
+    </style>
+
+    <style name="ProgressBarTheme">
+        <item name="colorAccent">@color/colorMaterialBlack</item>
+    </style>
+
 
 </resources>

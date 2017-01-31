@@ -1,6 +1,7 @@
 package dj.example.main.activities;
 
 import android.app.Application;
+import android.os.Handler;
 
 /**
  * Created by DJphy on 28-09-2016.
@@ -18,9 +19,19 @@ public class MyApplication extends Application {
         return ourInstance;
     }
 
+    public interface MenuSelectionListener {
+        void onMenuSelected(Object data);
+    }
+
+    private Handler uiHandler;
+    public Handler getUiHandler() {
+        return uiHandler;
+    }
+
     @Override
     public void onCreate() {
         super.onCreate();
         ourInstance = this;
+        uiHandler = new Handler();
     }
 }
