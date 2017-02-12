@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/toolbar"
+            style="@style/ToolBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:paddingTop="@dimen/tool_bar_top_padding"
+            app:contentInsetStart="0dp">
+
+            <ImageView
+                android:id="@+id/imvHeaderMenu"
+                android:layout_width="@dimen/action_bar_item_dimen"
+                android:layout_height="@dimen/action_bar_item_dimen"
+                android:layout_gravity="start"
+                android:background="?attr/selectableItemBackground"
+                android:minHeight="@dimen/abc_action_bar_default_height_material"
+                android:minWidth="@dimen/abc_action_bar_default_height_material"
+                android:padding="10dp"
+                android:scaleType="center"
+                android:src="@drawable/ic_menu"
+                android:visibility="visible"
+                 />
+
+
+            <ImageView
+                android:id="@+id/imvHeaderSearch"
+                android:layout_width="@dimen/action_bar_item_dimen"
+                android:layout_height="@dimen/action_bar_item_dimen"
+                android:layout_gravity="right"
+                android:background="?attr/selectableItemBackground"
+                android:minHeight="@dimen/abc_action_bar_default_height_material"
+                android:minWidth="@dimen/abc_action_bar_default_height_material"
+                android:padding="10dp"
+                android:scaleType="center"
+                android:src="@drawable/ic_search_white_24dp"
+                 />
+
+            <TextView
+                android:id="@+id/tvnHeaderTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:singleLine="true"
+                android:text="@string/app_name"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+        </android.support.v7.widget.Toolbar>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:indeterminate="true"
+            android:theme="@style/ProgressBarTheme"
+            android:visibility="visible" />
+
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

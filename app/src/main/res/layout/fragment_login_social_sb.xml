@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/padding_normal"
+    android:paddingEnd="@dimen/padding_normal"
+    android:paddingStart="@dimen/padding_normal_12">
+
+    <ImageView
+        android:id="@+id/ivFb"
+        android:layout_width="@dimen/social_login_icon_dimen"
+        android:layout_height="@dimen/social_login_icon_dimen"
+        android:layout_gravity="end"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/bg_2dp_grey_stroke_trans_filling_press_var"
+        android:padding="@dimen/padding_normal_12" />
+
+    <ImageView
+        android:id="@+id/ivGl"
+        android:layout_width="@dimen/social_login_icon_dimen"
+        android:layout_height="@dimen/social_login_icon_dimen"
+        android:layout_gravity="start"
+        android:layout_marginTop="@dimen/padding_normal"
+        android:background="@drawable/bg_2dp_grey_stroke_trans_filling_press_var"
+        android:padding="@dimen/padding_normal_12" />
+
+    <ImageView
+        android:id="@+id/ivPh"
+        android:layout_width="@dimen/social_login_icon_dimen"
+        android:layout_height="@dimen/social_login_icon_dimen"
+        android:layout_gravity="end"
+        android:layout_marginTop="@dimen/padding_normal"
+        android:background="@drawable/bg_2dp_grey_stroke_trans_filling_press_var"
+        android:padding="@dimen/padding_normal_12" />
+
+</LinearLayout>

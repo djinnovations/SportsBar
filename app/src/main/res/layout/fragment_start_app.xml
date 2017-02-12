@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/ll_login_options_width"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/padding_normal">
+
+
+    <EditText
+        android:id="@+id/etWRU"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_btn_height"
+        android:layout_marginTop="@dimen/padding_normal"
+        android:background="@drawable/bg_1dp_white_stroke_trans_filling"
+        android:gravity="center"
+        android:hint="@string/wru"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:padding="2dp"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAlternateWhite"
+        android:textColorHint="@color/colorAlternateWhite"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:theme="@style/LoginEditTextTheme" />
+
+    <EditText
+        android:id="@+id/etSecret"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_btn_height"
+        android:layout_marginTop="@dimen/padding_normal_12"
+        android:background="@drawable/bg_1dp_white_stroke_trans_filling"
+        android:gravity="center"
+        android:hint="@string/secret"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:padding="2dp"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAlternateWhite"
+        android:textColorHint="@color/colorAlternateWhite"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:theme="@style/LoginEditTextTheme" />
+
+    <Button
+        android:id="@+id/btnARG"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_btn_height"
+        android:layout_marginTop="@dimen/padding_normal"
+        android:background="@drawable/bg_2dp_curve_yellow_filling_press_var"
+        android:gravity="center"
+        android:text="@string/eugame"
+        android:textAllCaps="false"
+        android:textColor="@color/colorBlackDimText"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btnNew"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_btn_height"
+        android:layout_marginTop="@dimen/padding_normal_12"
+        android:background="@drawable/bg_2dp_curve_yellow_filling_press_var"
+        android:gravity="center"
+        android:text="@string/new_here"
+        android:textAllCaps="false"
+        android:textColor="@color/colorBlackDimText"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

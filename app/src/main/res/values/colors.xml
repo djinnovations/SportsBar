@@ -28,4 +28,8 @@
     <color name="colorMainAppBg">#246EFB</color>
     <color name="colorMainPress">#0054a6</color>
 
+    <color name="colorYellow">#ffeb3b</color>
+    <color name="colorMidYellow">#fdd835</color>
+    <color name="colorYellowPress"> #ffc107</color>
+
 </resources>

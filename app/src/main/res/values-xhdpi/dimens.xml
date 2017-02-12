@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="checkbox_adapter_item_height">60dp</dimen>
+    <dimen name="login_btn_height">48dp</dimen>
+
+    <dimen name="fb_login_btn_margin_start">20dp</dimen>
+    <dimen name="gl_login_btn_margin_start">16dp</dimen>
+    <dimen name="padding_normal">20dp</dimen>
+    <dimen name="padding_normal_12">12dp</dimen>
+    <dimen name="ll_login_options_width">220dp</dimen>
+    <dimen name="action_bar_item_dimen">48dp</dimen>
+    <dimen name="tool_bar_top_padding">24dp</dimen>
+
+</resources>

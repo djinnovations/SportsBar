@@ -10,4 +10,9 @@
     <string name="login">Sign in</string>
     <string name="forgot">Forgot Password?</string>
     <string name="acct_txt">Or sign in with Company\'s account</string>
+
+    <string name="wru">Who are you?</string>
+    <string name="secret">Top Secret</string>
+    <string name="eugame">Are you game?</string>
+    <string name="new_here">New?</string>
 </resources>
